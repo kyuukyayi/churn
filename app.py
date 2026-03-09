@@ -11,8 +11,8 @@ import joblib
 import os
 
 # Define file paths for the saved model and training columns
-MODEL_PATH = "model/churn_model.pkl"
-COLUMNS_PATH = "model/model_columns.pkl"
+MODEL_PATH = "churn.pkl"
+COLUMNS_PATH = "model_columns.pkl"
 
 # Set the title of the app
 st.title("Telco Customer Churn Prediction")
@@ -99,4 +99,5 @@ if st.button("Predict Churn"):
     if prediction == 1:
         st.error(f"This customer is likely to churn. Probability: {prediction_proba:.2%}")
     else:
+
         st.success(f"This customer is likely to stay. Probability of churn: {prediction_proba:.2%}")

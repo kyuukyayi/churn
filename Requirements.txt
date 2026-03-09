@@ -1,0 +1,30 @@
+# Telco Customer Churn Prediction
+
+## Objective
+Predict whether a customer will churn using machine learning.
+
+## Dataset
+Telco Customer Churn Dataset
+
+## Steps
+1. Data Cleaning
+2. Exploratory Data Analysis
+3. Feature Engineering
+4. Model Training
+5. Model Evaluation
+6. Deployment with Streamlit
+
+## Models Used
+- Logistic Regression
+- Random Forest
+
+## Evaluation Metrics
+- Recall
+- F1 Score
+
+## Key Insights
+Month-to-month contracts have highest churn.
+Customers with high monthly charges churn more.
+
+## Running the App
+streamlit run app.py

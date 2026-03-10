@@ -15,7 +15,7 @@ MODEL_PATH = "churn.pkl"
 COLUMNS_PATH = "model_columns.pkl"
 
 # Set the title of the app
-st.title("Telco Customer Churn Prediction")
+st.title("☎️Telco Customer Churn Prediction")
 
 # Check if model file exists
 if not os.path.exists(MODEL_PATH):
@@ -101,3 +101,4 @@ if st.button("Predict Churn"):
     else:
 
         st.success(f"This customer is likely to stay. Probability of churn: {prediction_proba:.2%}")
+
